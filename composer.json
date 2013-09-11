@@ -29,12 +29,11 @@
         "php": ">=5.4.0",
         "respect/validation": "dev-develop"
     },
-    "minimum-stability": "dev",
     "require-dev": {
-        "phpunit/phpunit": "*@stable",
-        "squizlabs/php_codesniffer": "*@stable",
-        "pdepend/pdepend" : "*@stable",
-        "phpmd/phpmd" : "*@stable",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "pdepend/pdepend" : "*",
+        "phpmd/phpmd" : "*",
         "phploc/phploc": "*",
         "sebastian/phpcpd": "*",
         "phpdocumentor/phpdocumentor": "*",
