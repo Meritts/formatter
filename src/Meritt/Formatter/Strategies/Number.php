@@ -113,13 +113,13 @@ class Number implements Strategy
     /**
      * Formats the given number using the strategy configuration
      *
-     * @param number $data
+     * @param number $count
      * @return string
      */
-    public function format($data)
+    public function format($count)
     {
         return number_format(
-            $data,
+            $count,
             $this->precision,
             $this->decimalSeparator,
             $this->thousandsSeparator

@@ -20,8 +20,8 @@ interface Strategy
     /**
      * Formats the data using the configured params
      *
-     * @param mixed $data
+     * @param mixed $count
      * @return string
      */
-    public function format($data);
+    public function format($count);
 }
