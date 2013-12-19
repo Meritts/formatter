@@ -14,7 +14,7 @@ use Meritt\Formatter\Strategy;
 use Respect\Validation\Validator as v;
 
 /**
- * The format strategy for numbers
+ * The format strategy for plurals
  *
  * @author Luís Otávio Cobucci Oblonczyk <luis@meritt.com.br>
  * @author Kaléu Caminha <kaleu@meritt.com.br>
