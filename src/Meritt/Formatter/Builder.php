@@ -17,6 +17,9 @@ use ReflectionException;
  *
  * @author Luís Otávio Cobucci Oblonczyk <luis@meritt.com.br>
  * @author Kaléu Caminha <kaleu@meritt.com.br>
+ * 
+ * @method \Meritt\Formatter\Strategies\Pluralize pluralize() pluralize(string $zeroMessageFormat, string $singularMessageFormat, string $pluralMessageFormat, \Meritt\Formatter\Strategies\Number $formatter = null) The format strategy for plurals
+ * @method \Meritt\Formatter\Strategies\Number number() number(int $precision, string $decimalSeparator = null, string $thousandsSeparator = null) The format strategy for numbers
  */
 class Builder
 {
