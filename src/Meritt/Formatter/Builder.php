@@ -18,8 +18,8 @@ use ReflectionException;
  * @author Luís Otávio Cobucci Oblonczyk <luis@meritt.com.br>
  * @author Kaléu Caminha <kaleu@meritt.com.br>
  * 
- * @method Strategies\Pluralize pluralize() pluralize(string $zeroMessageFormat, string $singularMessageFormat, string $pluralMessageFormat, Strategies\Number $formatter = null) The format strategy for plurals
- * @method Strategies\Number number() number(int $precision = 2, string $decimalSeparator = null, string $thousandsSeparator = null) The format strategy for numbers
+ * @method static Strategies\Pluralize pluralize() pluralize(string $zeroMessageFormat, string $singularMessageFormat, string $pluralMessageFormat, Strategies\Number $formatter = null) The format strategy for plurals
+ * @method static Strategies\Number number() number(int $precision = 2, string $decimalSeparator = ',', string $thousandsSeparator = '.') The format strategy for numbers
  */
 class Builder
 {
