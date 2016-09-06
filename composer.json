@@ -14,20 +14,9 @@
             "email": "luis@meritt.com.br"
         }
     ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.meritt.com.br",
-            "options": {
-                "ssl": {
-                    "local_cert": "/opt/meritt/meritt.pem"
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "respect/validation": "0.5.0"
+        "respect/validation": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
@@ -35,9 +24,7 @@
         "pdepend/pdepend" : "*",
         "phpmd/phpmd" : "*",
         "phploc/phploc": "*",
-        "sebastian/phpcpd": "*",
-        "phpdocumentor/phpdocumentor": "*",
-        "phpdocumentor/template-responsive-twig": "*"
+        "sebastian/phpcpd": "*"
     },
     "autoload": {
         "psr-0": { "Meritt": "src/" }
