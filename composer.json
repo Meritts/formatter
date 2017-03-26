@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "respect/validation": "^1.1"
+        "respect/validation": "0.9.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
