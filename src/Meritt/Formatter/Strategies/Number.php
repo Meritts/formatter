@@ -67,7 +67,7 @@ class Number implements Strategy
      */
     protected function setPrecision($precision)
     {
-        if (!v::int()->min(0, true)->validate($precision)) {
+        if (!v::intVal()->min(0, true)->validate($precision)) {
             throw new InvalidArgumentException(
                 'The precision should be a int greater than or equal 0'
             );
